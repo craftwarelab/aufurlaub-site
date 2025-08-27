@@ -323,7 +323,7 @@ const Packages = () => {
                   {/* <div className="absolute top-4 right-4 bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] px-3 py-1 rounded-full text-sm font-semibold">
                     {pkg.price}
                   </div> */}
-                  <div className="absolute top-4 left-4 flex items-center bg-[hsl(var(--background))]/90 backdrop-blur-sm px-2 py-1 rounded-full">
+                  {/* <div className="absolute top-4 left-4 flex items-center bg-[hsl(var(--background))]/90 backdrop-blur-sm px-2 py-1 rounded-full">
                     <Star
                       className="text-[hsl(var(--primary))] fill-current"
                       size={14}
@@ -331,7 +331,7 @@ const Packages = () => {
                     <span className="text-sm font-medium ml-1">
                       {pkg.rating}
                     </span>
-                  </div>
+                  </div> */}
                 </div>
               </CardHeader>
 

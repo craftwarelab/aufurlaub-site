@@ -163,12 +163,12 @@ const Footer = () => {
                     <a href="https://www.facebook.com/share/17JfBf1fC9/" target="_blank" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
                       <Facebook size={20} />
                     </a>
-                    <a href="#" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
+                    <a href="https://www.instagram.com/auf.urlaub/" target="_blank" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
                       <Instagram size={20} />
                     </a>
-                    <a href="#" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
+                    {/* <a href="#" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
                       <Twitter size={20} />
-                    </a>
+                    </a> */}
                   </div>
                 </div>
               </div>

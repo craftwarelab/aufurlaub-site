@@ -1,4 +1,4 @@
-import { DollarSign, MapPin, Clock, Shield, Users, Star } from "lucide-react";
+import { DollarSign, MapPin, Clock, Shield, Users, Star, Compass } from "lucide-react";
 
 const Features = () => {
   const features = [
@@ -21,10 +21,10 @@ const Features = () => {
         "Round-the-clock customer support for any assistance during your trip.",
     },
     {
-      icon: Shield,
-      title: "Travel Insurance",
+      icon: Compass,
+      title: "Authentic Experiences",
       description:
-        "Comprehensive travel insurance included in all our packages for peace of mind.",
+        "Handpicked local experiences that let you truly connect with the destination.",
     },
     {
       icon: MapPin,

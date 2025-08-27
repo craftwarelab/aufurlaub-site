@@ -1,7 +1,8 @@
-'use client';
+"use client";
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import Image from "next/image";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -35,16 +36,29 @@ const Header = () => {
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? "bg-[hsl(var(--background))]/95 backdrop-blur-md shadow-lg" : "bg-transparent"
+        isScrolled
+          ? "bg-[hsl(var(--background))]/95 backdrop-blur-md shadow-lg"
+          : "bg-transparent"
       }`}
     >
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
-          <div 
-            className="text-2xl font-bold text-[hsl(var(--primary))] cursor-pointer"
-            onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          >
-            Aufurlaub
+          <div className="flex items-center space-x-1">
+            <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-[hsl(var(--primary))]/20">
+              <Image
+                src="/logo.jpg"
+                alt="review.name"
+                width={700}
+                height={700}
+                className="w-full h-full object-cover object-center scale-125"
+              />
+            </div>
+            <div
+              className="text-2xl font-bold text-[hsl(var(--primary))] cursor-pointer"
+              onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+            >
+              aufurlaub
+            </div>
           </div>
 
           {/* Desktop Navigation */}

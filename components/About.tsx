@@ -11,7 +11,7 @@ const About = () => {
             About Aufurlaub
           </h2>
           <p className=" md:text-xl text-[hsl(var(--muted-foreground))] mb-12 leading-relaxed animate-slide-up">
-            With 5+ years of experience in the tourism industry, we specialize
+            With 15+ years of experience in the tourism industry, we specialize
             in creating unforgettable travel experiences. Led by a passionate
             female national tourist guide, our tours are designed to showcase
             the beauty and culture of our motherland. With a passion for

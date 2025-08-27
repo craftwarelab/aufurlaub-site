@@ -20,10 +20,10 @@ const FAQ = () => {
       question: "What is your cancellation policy?",
       answer: "Our flexible cancellation policy allows free cancellation up to 45 days before departure for most packages. Between 44-15 days, a 50% fee applies. Within 14 days, cancellations are subject to supplier terms. We recommend travel insurance for additional protection against unforeseen circumstances."
     },
-    {
-      question: "Do you provide travel insurance?",
-      answer: "Yes, comprehensive travel insurance is included in all our packages at no extra cost. This covers medical emergencies, trip cancellation, lost luggage, and travel delays. We also offer optional premium insurance upgrades for additional coverage including adventure sports and higher medical limits."
-    },
+    // {
+    //   question: "Do you provide travel insurance?",
+    //   answer: "Yes, comprehensive travel insurance is included in all our packages at no extra cost. This covers medical emergencies, trip cancellation, lost luggage, and travel delays. We also offer optional premium insurance upgrades for additional coverage including adventure sports and higher medical limits."
+    // },
     {
       question: "Can you customize packages for special occasions?",
       answer: "Absolutely! We specialize in creating custom experiences for honeymoons, anniversaries, birthdays, family reunions, and corporate retreats. Our team works closely with you to understand your vision and create a personalized itinerary that exceeds your expectations."
