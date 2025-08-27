@@ -1,5 +1,6 @@
 "use client";
 import { Globe, Users, Award } from "lucide-react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -10,7 +11,7 @@ const About = () => {
             About Aufurlaub
           </h2>
           <p className="text-xl text-[hsl(var(--muted-foreground))] mb-12 leading-relaxed animate-slide-up">
-            With 20 years of experience in the tourism industry, we specialize
+            With 5+ years of experience in the tourism industry, we specialize
             in creating unforgettable travel experiences. Led by a passionate
             female national tourist guide, our tours are designed to showcase
             the beauty and culture of our motherland. With a passion for
@@ -18,7 +19,18 @@ const About = () => {
             practices while delivering exceptional service to our clients.
           </p>
 
-          <div className="grid md:grid-cols-3 gap-8 mt-16">
+          <div>
+            <a href="https://www.getyourguide.com/-s386132" target="_blank">
+              <Image
+                src="https://gyg.me/DFO5LFuz"
+                width={400}
+                height={400}
+                className="mx-auto w-[130px] h-auto border border-[#c6c8d0]"
+                alt="GetYourGuide | Aufurlaub "
+              />
+            </a>
+          </div>
+          {/* <div className="grid md:grid-cols-3 gap-8 mt-16">
             <div className="text-center animate-slide-up">
               <div className="w-16 h-16 bg-[hsl(var(--primary))] rounded-full flex items-center justify-center mx-auto mb-4">
                 <Globe
@@ -66,7 +78,7 @@ const About = () => {
                 consecutive years by the International Tourism Board.
               </p>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
