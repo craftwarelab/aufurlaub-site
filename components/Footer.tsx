@@ -41,7 +41,7 @@ const Footer = () => {
             <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
               Start Your Journey Today
             </h2>
-            <p className="text-xl opacity-90 max-w-2xl mx-auto animate-slide-up">
+            <p className="md:text-xl opacity-90 max-w-2xl mx-auto animate-slide-up">
               Ready to explore the world? Get in touch with our travel experts 
               and let us plan your perfect adventure.
             </p>
@@ -194,7 +194,7 @@ const Footer = () => {
                 Terms of Service
               </a> */}
               <a href="https://www.itsnipun.live" target="_blank" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
-                Developed by Nipun
+                Developed by Nipun Madusanka
               </a>
             </div>
           </div>

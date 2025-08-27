@@ -294,7 +294,7 @@ const Packages = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-[hsl(var(--foreground))] mb-6 animate-fade-in">
             Our Travel Packages
           </h2>
-          <p className="text-xl text-[hsl(var(--muted-foreground))] max-w-4xl mx-auto animate-slide-up">
+          <p className="md:text-xl text-[hsl(var(--muted-foreground))] max-w-4xl mx-auto animate-slide-up">
             Explore the best of Sri Lanka with our expertly designed travel
             packages. Enjoy a perfect blend of cultural heritage, wildlife
             adventures, scenic landscapes, and relaxing beach escapes. Each

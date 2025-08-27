@@ -63,7 +63,7 @@ const Modal: React.FC<ModalProps> = ({
       aria-modal="true"
     >
       <div
-        className=" bg-white rounded-lg shadow-lg min-w-[40vw] max-w-[60vw]"
+        className=" bg-white rounded-lg shadow-lg w-[95vw] md:min-w-[40vw] md:max-w-[60vw]"
         ref={modelRef}
       >
         <div className="relative w-full h-[40px] ">

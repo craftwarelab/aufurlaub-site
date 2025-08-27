@@ -10,7 +10,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-[hsl(var(--foreground))] mb-6 animate-fade-in">
             About Aufurlaub
           </h2>
-          <p className="text-xl text-[hsl(var(--muted-foreground))] mb-12 leading-relaxed animate-slide-up">
+          <p className=" md:text-xl text-[hsl(var(--muted-foreground))] mb-12 leading-relaxed animate-slide-up">
             With 5+ years of experience in the tourism industry, we specialize
             in creating unforgettable travel experiences. Led by a passionate
             female national tourist guide, our tours are designed to showcase

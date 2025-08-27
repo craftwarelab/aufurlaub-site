@@ -41,7 +41,7 @@ const FAQ = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-[hsl(var(--foreground))] mb-6 animate-fade-in">
             Frequently Asked Questions
           </h2>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto animate-slide-up">
+          <p className="md:text-xl text-muted-foreground max-w-2xl mx-auto animate-slide-up">
             Find answers to common questions about our travel services, 
             booking process, and what to expect on your journey with us.
           </p>

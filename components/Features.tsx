@@ -47,7 +47,7 @@ const Features = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-[hsl(var(--foreground))] mb-6 animate-fade-in">
             Why Choose Aufurlaub?
           </h2>
-          <p className="text-xl text-[hsl(var(--muted-foreground))] max-w-4xl mx-auto animate-slide-up">
+          <p className="md:text-xl text-[hsl(var(--muted-foreground))] max-w-4xl mx-auto animate-slide-up">
             Personalized Itineraries, Expert knowledge, women empowering,
             sustainable travel options, Local connections, Quality service and
             Comprehensive packages. Whether you are a solo traveler, a couple on

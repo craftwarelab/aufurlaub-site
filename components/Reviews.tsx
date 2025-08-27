@@ -55,7 +55,7 @@ const Reviews = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-[hsl(var(--foreground))] mb-6 animate-fade-in">
             What Our Travelers Say
           </h2>
-          <p className="text-xl text-[hsl(var(--muted-foreground))] max-w-2xl mx-auto animate-slide-up">
+          <p className=" md:text-xl text-[hsl(var(--muted-foreground))] max-w-2xl mx-auto animate-slide-up">
             Don&apos;t just take our word for it—hear from our satisfied
             customers who have experienced the magic of travel with Aufurlaub.
           </p>

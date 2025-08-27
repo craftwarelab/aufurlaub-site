@@ -112,13 +112,13 @@ const HeroCarousel = () => {
       {/* Navigation Arrows */}
       <button
         onClick={prevSlide}
-        className="absolute left-4 top-1/2 -translate-y-1/2 text-white hover:text-[hsl(var(--primary))] transition-colors duration-200 z-10"
+        className="absolute hidden md:block left-4 top-1/2 -translate-y-1/2 text-white hover:text-[hsl(var(--primary))] transition-colors duration-200 z-10"
       >
         <ChevronLeft size={48} />
       </button>
       <button
         onClick={nextSlide}
-        className="absolute right-4 top-1/2 -translate-y-1/2 text-white hover:text-[hsl(var(--primary))] transition-colors duration-200 z-10"
+        className="absolute hidden md:block right-4 top-1/2 -translate-y-1/2 text-white hover:text-[hsl(var(--primary))] transition-colors duration-200 z-10"
       >
         <ChevronRight size={48} />
       </button>
@@ -129,7 +129,7 @@ const HeroCarousel = () => {
           <button
             key={index}
             onClick={() => setCurrentSlide(index)}
-            className={`w-3 h-3 rounded-full transition-all duration-200 ${
+            className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-200 ${
               index === currentSlide ? "bg-[hsl(var(--primary))]" : "bg-white/50"
             }`}
           />
