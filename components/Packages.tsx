@@ -22,14 +22,14 @@ interface Package {
 
 const PackageCard = ({ pkg }: { pkg: Package }) => {
   return (
-    <Card className="w-full border-0 shadow-none">
+    <Card className="w-full border-0 shadow-none ">
       <CardHeader>
         <Image
           src={pkg.image}
           alt="package"
-          width={400}
-          height={600}
-          className="w-full h-[400] object-cover"
+          width={900}
+          height={900}
+          className="w-full h-[400] object-cover "
         />
       </CardHeader>
       {/* <CardContent>

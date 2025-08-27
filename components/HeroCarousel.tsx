@@ -71,7 +71,7 @@ const HeroCarousel = () => {
           >
             <div className="absolute inset-0 bg-black/40" />
             <div className="absolute bottom-0 right-0 p-2">
-              <span className="text-[8px] text-gray-200">
+              <span className="text-[5px] md:text-[8px] text-gray-200">
               {slide.credit}
               </span>
             </div>
