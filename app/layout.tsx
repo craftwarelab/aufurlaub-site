@@ -20,28 +20,17 @@ const geistMono = Geist_Mono({
 
 // Add metadata export
 export const metadata: Metadata = {
-  title: "AufUrlaub - Sri Lanka Travel Packages & Holiday Experiences | Reiseangebote Sri Lanka",
+  title: "Sri Lanka Urlaub – Rundreisen, Kultur & Traumstrände erleben",
   description:
-    "Book unforgettable Sri Lanka holidays with AufUrlaub. Explore curated travel packages, cultural tours, safaris, beaches & authentic experiences. | Buchen Sie unvergessliche Sri Lanka Reisen mit AufUrlaub – Kultur, Safari, Strände & mehr.",
+    "Planen Sie Ihren Traumurlaub mit Urlaub auf Sri Lanka. Genießen Sie maßgeschneiderte Touren, atemberaubende Natur, historische Tempel und paradiesische Strände.",
   keywords: [
-    "Sri Lanka travel",
-    "Sri Lanka holidays",
-    "Sri Lanka tour packages",
-    "Sri Lanka beach vacations",
-    "Sri Lanka cultural tours",
-    "Sri Lanka safaris",
-    "holiday packages",
-    "travel agency Sri Lanka",
-    "eco tours Sri Lanka",
-    "luxury travel Sri Lanka",
-    "Sri Lanka Reisen",
-    "Sri Lanka Urlaub",
-    "Sri Lanka Reiseangebote",
-    "Sri Lanka Rundreisen",
-    "Sri Lanka Pauschalreisen",
-    "Sri Lanka Strandurlaub",
-    "Sri Lanka Kulturreisen"
-  ],
+  "Sri Lanka Urlaub",
+  "Sri Lanka Rundreisen",
+  "Sri Lanka Urlaub buchen",
+  "Beste Reisezeit Sri Lanka Urlaub",
+  "Sri Lanka Rundreise Anbieter",
+  "Sri Lanka Individualreise"
+],
   viewport: {
     width: "device-width",
     initialScale: 1,
@@ -57,28 +46,28 @@ export const metadata: Metadata = {
     apple: "/logo.jpg",
   },
   openGraph: {
-    title: "AufUrlaub - Sri Lanka Travel & Holiday Packages | Sri Lanka Reisen",
+    title: "Sri Lanka Urlaub – Rundreisen, Kultur & Traumstrände erleben",
     description:
-      "Discover Sri Lanka with AufUrlaub. From cultural tours to safaris and beach holidays, find your perfect package. | Entdecken Sie Sri Lanka mit AufUrlaub – Kulturreisen, Safari-Abenteuer & Strandurlaub.",
+      "Planen Sie Ihren Traumurlaub mit Urlaub auf Sri Lanka. Genießen Sie maßgeschneiderte Touren, atemberaubende Natur, historische Tempel und paradiesische Strände.",
     url: "https://aufurlaubsrilanka.com/",
-    siteName: "AufUrlaub",
+    siteName: "Auf Urlaub Sri Lanka",
     images: [
       {
-        url: "/og-image.jpg",
-        width: 1200,
+        url: "/headImage/img_4.webp",
+        width: 630,
         height: 630,
-        alt: "AufUrlaub - Sri Lanka Travel Packages | Sri Lanka Reisen",
+        alt: "Sri Lanka Urlaub – Rundreisen, Kultur & Traumstrände erleben",
       },
     ],
-    locale: "en_US",
+   locale: "de_DE",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "AufUrlaub - Sri Lanka Travel Packages | Sri Lanka Reisen",
+    title: "Sri Lanka Urlaub – Rundreisen, Kultur & Traumstrände erleben",
     description:
-      "Plan your dream Sri Lanka holiday with AufUrlaub. Explore beaches, safaris, culture & eco tours. | Planen Sie Ihren Traumurlaub in Sri Lanka mit AufUrlaub – Strände, Safari, Kultur & Ökotourismus.",
-    images: ["/og-image.jpg"],
+      "Planen Sie Ihren Traumurlaub mit Urlaub auf Sri Lanka. Genießen Sie maßgeschneiderte Touren, atemberaubende Natur, historische Tempel und paradiesische Strände.",
+    images: ["/headImage/img_4.webp"],
   },
 };
 

@@ -2,10 +2,10 @@
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import Img1 from "@/assets/img_1.jpg";
-import Img2 from "@/assets/img_2.jpg";
-import Img3 from "@/assets/img_3.jpg";
-import Img4 from "@/assets/img_4.jpg";
+// import Img1 from "@/assets/img_1.jpg";
+// import Img2 from "@/assets/img_2.jpg";
+// import Img3 from "@/assets/img_3.jpg";
+// import Img4 from "@/assets/img_4.jpg";
 // import heroBeach from "@/assets/hero-beach.jpg";
 // import heroMountains from "@/assets/hero-mountains.jpg";
 // import heroCity from "@/assets/hero-city.jpg";
@@ -16,25 +16,25 @@ const HeroCarousel = () => {
 
   const slides = [
     {
-      image: '/headImage/img_5.jpg',
+      image: '/headImage/img_5.webp',
       title: "Tropical Paradise Awaits",
       subtitle: "Discover pristine beaches and crystal-clear waters",
       credit: "Photo by Malinda Bandara"
     },
     {
-      image: '/headImage/img_6.jpg',
+      image: '/headImage/img_6.webp',
       title: "Mountain Adventures",
       subtitle: "Experience breathtaking peaks and alpine serenity",
       credit: "Photo by Lena Goncharova"
     },
     {
-      image: '/headImage/img_1.jpg',
+      image: '/headImage/img_1.webp',
       title: "Historic Cities",
       subtitle: "Explore ancient cultures and charming old towns",
       credit: ""
     },
     {
-      image: '/headImage/img_4.jpg',
+      image: '/headImage/img_4.webp',
       title: "Jungle Expeditions",
       subtitle: "Venture into lush rainforests and hidden waterfalls",
       credit: "Photo by Himash Shavinda"

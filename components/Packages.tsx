@@ -125,7 +125,7 @@ const Packages = () => {
       duration: "12 Days / 11 Nights",
       price: "$2,499",
       rating: 4.9,
-      image: "/pkg/journey_through_vibe.jpg",
+      image: "/pkg/journey_through_vibe.webp",
       description:
         "Experience Sri Lanka’s culture, wildlife, and beaches with our expertly crafted 12-day guided tour.",
       features: ["Guidance", "Comfort", "Authenticity", "Diversity"],
@@ -165,7 +165,7 @@ const Packages = () => {
       duration: "11 Days / 10 Nights",
       price: "$1,899",
       rating: 4.8,
-      image: "/pkg/beach_vibe.jpg",
+      image: "/pkg/beach_vibe.webp",
       description:
         "Relax on pristine beaches while exploring Sri Lanka’s culture and scenic train journeys.",
       features: ["Beaches", "Excursions", "Culture", "Relaxation"],
@@ -199,7 +199,7 @@ const Packages = () => {
       duration: "Full Day",
       price: "$199",
       rating: 4.8,
-      image: "/pkg/colombo_walking.jpg",
+      image: "/pkg/colombo_walking.webp",
       description:
         "Discover Colombo’s vibrant markets, temples, and colonial heritage with a local lady guide.",
       features: ["Sustainable", "Eco-Friendly", "Culture", "Empowerment"],
@@ -227,7 +227,7 @@ const Packages = () => {
       duration: "",
       price: "$149",
       rating: 4.9,
-      image: "/pkg/agro_walking.jpg",
+      image: "/pkg/agro_walking.webp",
       description:
         "Discover Sri Lanka’s agro traditions with a farm walk, hands-on activities, and authentic local lunch.",
       features: ["Sustainable", "Organic", "Culture", "Authenticity"],
@@ -256,7 +256,7 @@ const Packages = () => {
       duration: "Full Day",
       price: "$179",
       rating: 4.9,
-      image: "/pkg/sinharaja_eco.jpg",
+      image: "/pkg/sinharaja_eco.webp",
       description:
         "Explore the UNESCO-listed Sinharaja Rainforest with expert guides, rich biodiversity, and authentic local experiences.",
       features: ["Nature", "Adventure", "Ecology", "Sustainability"],
