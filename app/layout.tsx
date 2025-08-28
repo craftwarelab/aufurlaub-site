@@ -41,9 +41,9 @@ export const metadata: Metadata = {
   creator: "AufUrlaub",
   publisher: "AufUrlaub",
   icons: {
-    icon: "/logo.jpg",
-    shortcut: "/logo.jpg",
-    apple: "/logo.jpg",
+    icon: "/headImage/img_4.webp",
+    shortcut: "/headImage/img_4.webp",
+    apple: "/headImage/img_4.webp",
   },
   openGraph: {
     title: "Sri Lanka Urlaub – Rundreisen, Kultur & Traumstrände erleben",

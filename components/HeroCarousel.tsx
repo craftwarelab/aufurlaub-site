@@ -22,7 +22,7 @@ const HeroCarousel = () => {
       credit: "Photo by Malinda Bandara"
     },
     {
-      image: '/headImage/img_6.webp',
+      image: '/headImage/img_2.webp',
       title: "Mountain Adventures",
       subtitle: "Experience breathtaking peaks and alpine serenity",
       credit: "Photo by Lena Goncharova"
