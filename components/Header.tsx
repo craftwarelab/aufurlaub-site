@@ -72,6 +72,22 @@ const Header = () => {
                 {item.label}
               </button>
             ))}
+             {/* GetYourGuide Badge - positioned after founders */}
+          <div className="">
+            <a
+              href="https://www.getyourguide.com/-s386132"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="https://gyg.me/DFO5LFuz"
+                width={50}
+                height={50}
+                className="border border-[#c6c8d0] rounded-lg shadow"
+                alt="GetYourGuide | Aufurlaub"
+              />
+            </a>
+          </div>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -97,6 +113,22 @@ const Header = () => {
                 </button>
               ))}
             </nav>
+                 {/* GetYourGuide Badge - positioned after founders */}
+          <div className="pb-4 space-y-2 px-4">
+            <a
+              href="https://www.getyourguide.com/-s386132"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="https://gyg.me/DFO5LFuz"
+                width={50}
+                height={50}
+                className="border border-[#c6c8d0] rounded-lg shadow"
+                alt="GetYourGuide | Aufurlaub"
+              />
+            </a>
+          </div>
           </div>
         )}
       </div>

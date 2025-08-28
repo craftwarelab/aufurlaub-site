@@ -1,10 +1,19 @@
-'use client';
+"use client";
 
 import { useState } from "react";
-import { MapPin, Phone, Mail, Facebook, Instagram, Twitter, Send } from "lucide-react";
+import {
+  MapPin,
+  Phone,
+  Mail,
+  Facebook,
+  Instagram,
+  Twitter,
+  Send,
+} from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "./ui/input";
 import { Textarea } from "@/components/ui/textarea";
+import Image from "next/image";
 // import { useToast } from "@/hooks/use-toast";
 
 const Footer = () => {
@@ -13,7 +22,7 @@ const Footer = () => {
     name: "",
     email: "",
     phone: "",
-    message: ""
+    message: "",
   });
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -25,15 +34,20 @@ const Footer = () => {
     setFormData({ name: "", email: "", phone: "", message: "" });
   };
 
-  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
-    setFormData(prev => ({
+  const handleChange = (
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+  ) => {
+    setFormData((prev) => ({
       ...prev,
-      [e.target.name]: e.target.value
+      [e.target.name]: e.target.value,
     }));
   };
 
   return (
-    <footer id="contact" className="bg-[hsl(var(--foreground))] text-[hsl(var(--background))]">
+    <footer
+      id="contact"
+      className="bg-[hsl(var(--foreground))] text-[hsl(var(--background))]"
+    >
       {/* Contact Section */}
       <div className="py-20">
         <div className="container mx-auto px-4">
@@ -42,7 +56,7 @@ const Footer = () => {
               Start Your Journey Today
             </h2>
             <p className="md:text-xl opacity-90 max-w-2xl mx-auto animate-slide-up">
-              Ready to explore the world? Get in touch with our travel experts 
+              Ready to explore the world? Get in touch with our travel experts
               and let us plan your perfect adventure.
             </p>
           </div>
@@ -97,8 +111,8 @@ const Footer = () => {
                     className="bg-[hsl(var(--background))]/10 border-[hsl(var(--background))]/20 text-[hsl(var(--background))] placeholder:text-[hsl(var(--background))]/70 resize-none"
                   />
                 </div>
-                <Button 
-                  type="submit" 
+                <Button
+                  type="submit"
                   className="w-full bg-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))]/90 text-[hsl(var(--primary-foreground))]"
                   size="lg"
                 >
@@ -114,15 +128,22 @@ const Footer = () => {
               <div className="space-y-6">
                 <div className="flex items-start space-x-4">
                   <div className="w-10 h-10 bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <MapPin size={20} className="text-[hsl(var(--primary-foreground))]" />
+                    <MapPin
+                      size={20}
+                      className="text-[hsl(var(--primary-foreground))]"
+                    />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Visit Our Office</h4>
                     <p className="opacity-90 leading-relaxed">
-                      168/20<br />
-                      Araliya Residencies<br />
-                      Galthude<br />
-                      Panadura<br />
+                      168/20
+                      <br />
+                      Araliya Residencies
+                      <br />
+                      Galthude
+                      <br />
+                      Panadura
+                      <br />
                       Sri Lanka
                     </p>
                   </div>
@@ -130,12 +151,16 @@ const Footer = () => {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-10 h-10 bg-[hsl(var(--secondary))] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <Phone size={20} className="text-[hsl(var(--secondary-foreground))]" />
+                    <Phone
+                      size={20}
+                      className="text-[hsl(var(--secondary-foreground))]"
+                    />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Call Us</h4>
                     <p className="opacity-90">
-                      <a href="tel:+94773977135">+94773977135</a><br />
+                      <a href="tel:+94773977135">+94773977135</a>
+                      <br />
                       {/* +94773977135<br /> */}
                       {/* <span className="text-sm">WhatsApp: <a href="tel:+94773977135">+94773977135</a></span> */}
                     </p>
@@ -144,12 +169,18 @@ const Footer = () => {
 
                 <div className="flex items-start space-x-4">
                   <div className="w-10 h-10 bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center flex-shrink-0 mt-1">
-                    <Mail size={20} className="text-[hsl(var(--primary-foreground))]" />
+                    <Mail
+                      size={20}
+                      className="text-[hsl(var(--primary-foreground))]"
+                    />
                   </div>
                   <div>
                     <h4 className="font-semibold mb-2">Email Us</h4>
                     <p className="opacity-90">
-                      <a href="mailto:tnliyanage@yahoo.com">tnliyanage@yahoo.com</a><br />
+                      <a href="mailto:tnliyanage@yahoo.com">
+                        tnliyanage@yahoo.com
+                      </a>
+                      <br />
                       {/* info@aufurlaub.com<br />
                       <span className="text-sm">bookings@aufurlaub.com</span> */}
                     </p>
@@ -157,13 +188,21 @@ const Footer = () => {
                 </div>
 
                 {/* Social Media */}
-                <div className="pt-6">
+                <div className="pt-8">
                   <h4 className="font-semibold mb-4">Follow Our Adventures</h4>
                   <div className="flex space-x-4">
-                    <a href="https://www.facebook.com/share/17JfBf1fC9/" target="_blank" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
+                    <a
+                      href="https://www.facebook.com/share/17JfBf1fC9/"
+                      target="_blank"
+                      className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200"
+                    >
                       <Facebook size={20} />
                     </a>
-                    <a href="https://www.instagram.com/auf.urlaub/" target="_blank" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
+                    <a
+                      href="https://www.instagram.com/auf.urlaub/"
+                      target="_blank"
+                      className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200"
+                    >
                       <Instagram size={20} />
                     </a>
                     {/* <a href="#" className="w-10 h-10 bg-[hsl(var(--background))]/10 hover:bg-[hsl(var(--primary))] rounded-lg flex items-center justify-center transition-colors duration-200">
@@ -171,6 +210,7 @@ const Footer = () => {
                     </a> */}
                   </div>
                 </div>
+               
               </div>
             </div>
           </div>
@@ -183,7 +223,8 @@ const Footer = () => {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="text-center md:text-left">
               <p className="opacity-80">
-                © {new Date().getFullYear()} Aufurlaub Travel Agency. All rights reserved.
+                © {new Date().getFullYear()} Aufurlaub Travel Agency. All rights
+                reserved.
               </p>
             </div>
             <div className="flex space-x-6 text-sm">
@@ -193,7 +234,11 @@ const Footer = () => {
               <a href="#" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
                 Terms of Service
               </a> */}
-              <a href="https://www.itsnipun.live" target="_blank" className="opacity-80 hover:opacity-100 transition-opacity duration-200">
+              <a
+                href="https://www.itsnipun.live"
+                target="_blank"
+                className="opacity-80 hover:opacity-100 transition-opacity duration-200"
+              >
                 Developed by Nipun Madusanka
               </a>
             </div>

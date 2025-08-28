@@ -16,15 +16,15 @@ const HeroCarousel = () => {
 
   const slides = [
     {
-      image: '/headImage/img_5.webp',
-      title: "Tropical Paradise Awaits",
-      subtitle: "Discover pristine beaches and crystal-clear waters",
+      image: '/headImage/img_6.webp',
+      title: "Pristine Shores Await",
+      subtitle: "Experience sun-kissed beaches and tranquil seas",
       credit: "Photo by Malinda Bandara"
     },
     {
       image: '/headImage/img_2.webp',
-      title: "Mountain Adventures",
-      subtitle: "Experience breathtaking peaks and alpine serenity",
+      title: "A Journey into the Wild",
+      subtitle: "Explore the wonders of the island’s rich fauna",
       credit: "Photo by Lena Goncharova"
     },
     {
@@ -33,12 +33,12 @@ const HeroCarousel = () => {
       subtitle: "Explore ancient cultures and charming old towns",
       credit: ""
     },
-    {
-      image: '/headImage/img_4.webp',
-      title: "Jungle Expeditions",
-      subtitle: "Venture into lush rainforests and hidden waterfalls",
-      credit: "Photo by Himash Shavinda"
-    }
+    // {
+    //   image: '/headImage/img_4.webp',
+    //   title: "Jungle Expeditions",
+    //   subtitle: "Venture into lush rainforests and hidden waterfalls",
+    //   credit: "Photo by Himash Shavinda"
+    // }
   ];
 
   useEffect(() => {
@@ -70,11 +70,11 @@ const HeroCarousel = () => {
             style={{ backgroundImage: `url(${slide.image})` }}
           >
             <div className="absolute inset-0 bg-black/40" />
-            <div className="absolute bottom-0 right-0 p-2">
+            {/* <div className="absolute bottom-0 right-0 p-2">
               <span className="text-[5px] md:text-[8px] text-gray-200">
               {slide.credit}
               </span>
-            </div>
+            </div> */}
             <div className="relative h-full flex items-center justify-center">
               <div className="text-center text-white px-4 animate-fade-in">
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">

@@ -19,66 +19,65 @@ const About = () => {
             practices while delivering exceptional service to our clients.
           </p>
 
-          <div>
-            <a href="https://www.getyourguide.com/-s386132" target="_blank">
+          {/* Founders Section */}
+          <div className="mt-16">
+            <h3 className="text-2xl font-semibold text-[hsl(var(--foreground))] mb-8">
+              Meet Our Founders
+            </h3>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-10">
+              {/* Founder 1 */}
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/founders1.webp" // Place your founder image in public/founder1.jpg
+                  width={120}
+                  height={120}
+                  className="rounded-full h-[120px] w-[120px] object-cover border-2 border-[hsl(var(--primary))] shadow-lg"
+                  alt="Jane Doe"
+                />
+                <span className="mt-4 text-lg font-medium text-[hsl(var(--foreground))]">
+                  Jane Doe
+                </span>
+                <span className="text-[hsl(var(--muted-foreground))] text-sm">
+                  Lead Guide & Co-Founder
+                </span>
+              </div>
+              {/* Founder 2 */}
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/founders2.webp" // Place your founder image in public/founder1.jpg
+                  width={120}
+                  height={120}
+                  className="rounded-full h-[120px] w-[120px] object-cover border-2 border-[hsl(var(--primary))] shadow-lg"
+                  alt="Jane Doe"
+                />
+                <span className="mt-4 text-lg font-medium text-[hsl(var(--foreground))]">
+                  Tharuka Liyanage
+                </span>
+                <span className="text-[hsl(var(--muted-foreground))] text-sm">
+                  Operations & Co-Founder
+                </span>
+              </div>
+            </div>
+          </div>
+
+          {/* GetYourGuide Badge - positioned after founders */}
+          {/* <div className="mt-12 flex justify-center">
+            <a
+              href="https://www.getyourguide.com/-s386132"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <Image
                 src="https://gyg.me/DFO5LFuz"
-                width={400}
-                height={400}
-                className="mx-auto w-[130px] h-auto border border-[#c6c8d0]"
-                alt="GetYourGuide | Aufurlaub "
+                width={90}
+                height={90}
+                className="border border-[#c6c8d0] rounded-lg shadow"
+                alt="GetYourGuide | Aufurlaub"
               />
             </a>
-          </div>
-          {/* <div className="grid md:grid-cols-3 gap-8 mt-16">
-            <div className="text-center animate-slide-up">
-              <div className="w-16 h-16 bg-[hsl(var(--primary))] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Globe
-                  className="text-[hsl(var(--primary-foreground))]"
-                  size={32}
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-[hsl(var(--foreground))] mb-2">
-                Global Reach
-              </h3>
-              <p className="text-[hsl(var(--muted-foreground))]">
-                We&apos;ve curated experiences across 6 continents and 50+
-                countries, bringing you the world&apos;s hidden gems.
-              </p>
-            </div>
-
-            <div className="text-center animate-slide-up">
-              <div className="w-16 h-16 bg-[hsl(var(--secondary))] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Users
-                  className="text-[hsl(var(--secondary-foreground))]"
-                  size={32}
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-[hsl(var(--foreground))] mb-2">
-                Happy Travelers
-              </h3>
-              <p className="text-[hsl(var(--muted-foreground))]">
-                Over 50,000 satisfied customers have trusted us with their dream
-                vacations and adventure expeditions.
-              </p>
-            </div>
-
-            <div className="text-center animate-slide-up">
-              <div className="w-16 h-16 bg-[hsl(var(--primary))] rounded-full flex items-center justify-center mx-auto mb-4">
-                <Award
-                  className="text-[hsl(var(--primary-foreground))]"
-                  size={32}
-                />
-              </div>
-              <h3 className="text-xl font-semibold text-[hsl(var(--foreground))] mb-2">
-                Award Winning
-              </h3>
-              <p className="text-[hsl(var(--muted-foreground))]">
-                Recognized as &quot;Best Travel Agency&quot; for three
-                consecutive years by the International Tourism Board.
-              </p>
-            </div>
           </div> */}
+
+          
         </div>
       </div>
     </section>
