@@ -25,22 +25,6 @@ const About = () => {
               Meet Our Founders
             </h3>
             <div className="flex flex-col md:flex-row items-center justify-center gap-10">
-              {/* Founder 1 */}
-              <div className="flex flex-col items-center">
-                <Image
-                  src="/founders1.webp" // Place your founder image in public/founder1.jpg
-                  width={120}
-                  height={120}
-                  className="rounded-full h-[120px] w-[120px] object-cover border-2 border-[hsl(var(--primary))] shadow-lg"
-                  alt="Jane Doe"
-                />
-                <span className="mt-4 text-lg font-medium text-[hsl(var(--foreground))]">
-                  Jane Doe
-                </span>
-                <span className="text-[hsl(var(--muted-foreground))] text-sm">
-                  Lead Guide & Co-Founder
-                </span>
-              </div>
               {/* Founder 2 */}
               <div className="flex flex-col items-center">
                 <Image
@@ -54,7 +38,29 @@ const About = () => {
                   Tharuka Liyanage
                 </span>
                 <span className="text-[hsl(var(--muted-foreground))] text-sm">
-                  Operations & Co-Founder
+                  The owner
+                </span>
+                <span className="text-[hsl(var(--muted-foreground))] text-sm">
+                  National Tourist Guide
+                </span>
+              </div>
+              {/* Founder 1 */}
+              <div className="flex flex-col items-center">
+                <Image
+                  src="/founders1.webp" // Place your founder image in public/founder1.jpg
+                  width={120}
+                  height={120}
+                  className="rounded-full h-[120px] w-[120px] object-cover border-2 border-[hsl(var(--primary))] shadow-lg"
+                  alt="Jane Doe"
+                />
+                <span className="mt-4 text-lg font-medium text-[hsl(var(--foreground))]">
+                  Shyam
+                </span>
+                <span className="text-[hsl(var(--muted-foreground))] text-sm">
+                  The Manager
+                </span>
+                <span className="text-[hsl(var(--muted-foreground))] text-sm">
+                  National Tourist Guide
                 </span>
               </div>
             </div>
@@ -76,8 +82,6 @@ const About = () => {
               />
             </a>
           </div> */}
-
-          
         </div>
       </div>
     </section>
