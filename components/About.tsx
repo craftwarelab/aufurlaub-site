@@ -24,43 +24,50 @@ const About = () => {
             <h3 className="text-2xl font-semibold text-[hsl(var(--foreground))] mb-8">
               Meet Our Founders
             </h3>
-            <div className="flex flex-col md:flex-row items-center justify-center gap-10">
-              {/* Founder 2 */}
-              <div className="flex flex-col items-center">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+              {/* Founder: Tharuka Liyanage */}
+              <div className="bg-white/80 rounded-xl shadow-lg p-6 flex flex-col items-center h-full transition hover:scale-105">
                 <Image
-                  src="/founders2.webp" // Place your founder image in public/founder1.jpg
+                  src="/founders2.webp"
                   width={120}
                   height={120}
-                  className="rounded-full h-[120px] w-[120px] object-cover border-2 border-[hsl(var(--primary))] shadow-lg"
-                  alt="Jane Doe"
+                  className="rounded-full h-[120px] w-[120px] object-cover border-4 border-[hsl(var(--primary))] mb-4"
+                  alt="Tharuka Liyanage"
                 />
-                <span className="mt-4 text-lg font-medium text-[hsl(var(--foreground))]">
+                <span className="text-xl font-bold text-[hsl(var(--foreground))]">
                   Tharuka Liyanage
                 </span>
-                <span className="text-[hsl(var(--muted-foreground))] text-sm">
-                  The owner
+                <span className="text-[hsl(var(--primary))] font-medium mt-1">
+                  Owner & National Tourist Guide
                 </span>
-                <span className="text-[hsl(var(--muted-foreground))] text-sm">
-                  National Tourist Guide
+                <span className="text-[hsl(var(--muted-foreground))] text-sm mt-2 text-center">
+                  Hi, I am Tharuka, the owner of Aufurlaub with 15 years
+                  experience in the tourism industry. Fluent in German and
+                  English, I am passionate about tourism and invite you to join
+                  me for an unforgettable holiday in Sri Lanka.
                 </span>
               </div>
-              {/* Founder 1 */}
-              <div className="flex flex-col items-center">
+              {/* Founder: Shyam */}
+              <div className="bg-white/80 rounded-xl shadow-lg p-6 flex flex-col items-center h-full transition hover:scale-105">
                 <Image
-                  src="/founders1.webp" // Place your founder image in public/founder1.jpg
+                  src="/founders1.webp"
                   width={120}
                   height={120}
-                  className="rounded-full h-[120px] w-[120px] object-cover border-2 border-[hsl(var(--primary))] shadow-lg"
-                  alt="Jane Doe"
+                  className="rounded-full h-[120px] w-[120px] object-cover border-4 border-[hsl(var(--primary))] mb-4"
+                  alt="Shyam"
                 />
-                <span className="mt-4 text-lg font-medium text-[hsl(var(--foreground))]">
+                <span className="text-xl font-bold text-[hsl(var(--foreground))]">
                   Shyam
                 </span>
-                <span className="text-[hsl(var(--muted-foreground))] text-sm">
-                  The Manager
+                <span className="text-[hsl(var(--primary))] font-medium mt-1">
+                  Managing Director & National Tourist Guide
                 </span>
-                <span className="text-[hsl(var(--muted-foreground))] text-sm">
-                  National Tourist Guide
+                <span className="text-[hsl(var(--muted-foreground))] text-sm mt-2 text-center">
+                  Meet Shyam, your passionate tour guide, speaks English and has
+                  over 20 years of experience in the tourism industry. He brings
+                  destinations to life with captivating tales and insider
+                  knowledge, creating a warm and welcoming atmosphere for every
+                  traveler.
                 </span>
               </div>
             </div>

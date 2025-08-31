@@ -22,7 +22,7 @@ const HeroCarousel = () => {
       credit: "Photo by Malinda Bandara"
     },
     {
-      image: '/headImage/img_2.webp',
+      image: '/headImage/elephent.webp',
       title: "A Journey into the Wild",
       subtitle: "Explore the wonders of the island’s rich fauna",
       credit: "Photo by Lena Goncharova"

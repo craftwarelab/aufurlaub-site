@@ -51,7 +51,7 @@ const Footer = () => {
       {/* Contact Section */}
       <div className="py-20">
         <div className="container mx-auto px-4">
-          <div className="text-center mb-16">
+          <div className="text-center">
             <h2 className="text-4xl md:text-5xl font-bold mb-6 animate-fade-in">
               Start Your Journey Today
             </h2>
@@ -59,6 +59,22 @@ const Footer = () => {
               Ready to explore the world? Get in touch with our travel experts
               and let us plan your perfect adventure.
             </p>
+          </div>
+
+          <div className="pt-6 mb-16 flex justify-center">
+            <a
+              href="https://www.getyourguide.com/-s386132"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Image
+                src="https://gyg.me/DFO5LFuz"
+                width={100}
+                height={100}
+                className="border border-[#c6c8d0] rounded-lg shadow"
+                alt="GetYourGuide | Aufurlaub"
+              />
+            </a>
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12 max-w-6xl mx-auto">
@@ -210,7 +226,6 @@ const Footer = () => {
                     </a> */}
                   </div>
                 </div>
-               
               </div>
             </div>
           </div>
