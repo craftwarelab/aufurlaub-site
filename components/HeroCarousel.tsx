@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { useState, useEffect } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -16,22 +16,28 @@ const HeroCarousel = () => {
 
   const slides = [
     {
-      image: '/headImage/img_6.webp',
+      image: "/headImage/img_6.webp",
       title: "Pristine Shores Await",
       subtitle: "Experience sun-kissed beaches and tranquil seas",
-      credit: "Photo by Malinda Bandara"
+      credit: "Photo by Malinda Bandara",
     },
     {
-      image: '/headImage/elephent.webp',
+      image: "/headImage/beach.webp",
+      title: "Discover Coastal Bliss",
+      subtitle: "Bask in golden sands and crystal-clear waters",
+      credit: "Captured by Malinda Bandara",
+    },
+    {
+      image: "/headImage/elephent.webp",
       title: "A Journey into the Wild",
       subtitle: "Explore the wonders of the island’s rich fauna",
-      credit: "Photo by Lena Goncharova"
+      credit: "Photo by Lena Goncharova",
     },
     {
-      image: '/headImage/img_1.webp',
+      image: "/headImage/img_1.webp",
       title: "Historic Cities",
       subtitle: "Explore ancient cultures and charming old towns",
-      credit: ""
+      credit: "",
     },
     // {
     //   image: '/headImage/img_4.webp',
@@ -62,7 +68,11 @@ const HeroCarousel = () => {
         <div
           key={index}
           className={`absolute inset-0 transition-transform duration-1000 ease-in-out ${
-            index === currentSlide ? "translate-x-0" : index < currentSlide ? "-translate-x-full" : "translate-x-full"
+            index === currentSlide
+              ? "translate-x-0"
+              : index < currentSlide
+              ? "-translate-x-full"
+              : "translate-x-full"
           }`}
         >
           <div
@@ -87,18 +97,26 @@ const HeroCarousel = () => {
                   {slide.subtitle}
                 </p>
                 <div className="space-y-4 sm:space-y-0 sm:space-x-4 sm:flex sm:justify-center">
-                  <Button 
-                    size="lg" 
+                  <Button
+                    size="lg"
                     className="bg-[hsl(var(--primary))] hover:bg-[hsl(var(--primary))]/90 text-[hsl(var(--primary-foreground))] px-8 py-4 text-lg animate-float"
-                    onClick={() => document.getElementById("packages")?.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() =>
+                      document
+                        .getElementById("packages")
+                        ?.scrollIntoView({ behavior: "smooth" })
+                    }
                   >
                     Explore Packages
                   </Button>
-                  <Button 
-                    size="lg" 
-                    variant="outline" 
+                  <Button
+                    size="lg"
+                    variant="outline"
                     className="border-white text-white hover:bg-white hover:text-[hsl(var(--foreground))] px-8 py-4 text-lg"
-                    onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
+                    onClick={() =>
+                      document
+                        .getElementById("about")
+                        ?.scrollIntoView({ behavior: "smooth" })
+                    }
                   >
                     Learn More
                   </Button>
@@ -130,7 +148,9 @@ const HeroCarousel = () => {
             key={index}
             onClick={() => setCurrentSlide(index)}
             className={`w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-200 ${
-              index === currentSlide ? "bg-[hsl(var(--primary))]" : "bg-white/50"
+              index === currentSlide
+                ? "bg-[hsl(var(--primary))]"
+                : "bg-white/50"
             }`}
           />
         ))}
